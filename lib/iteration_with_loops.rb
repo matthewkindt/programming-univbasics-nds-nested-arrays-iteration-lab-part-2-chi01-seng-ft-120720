@@ -1,6 +1,8 @@
+require 'pry'
 def find_min_in_nested_arrays(array_1)
-  array_of_mins = [18, 17, 13, 19, 20, 24, 22]
-  counter = 0
+  binding.pry
+  array_of_mins = []
+  counter = 0 
   while counter < array_1.length do
     p array_of_mins = array_1[counter].min
     array_of_mins << array_1[counter].min 
