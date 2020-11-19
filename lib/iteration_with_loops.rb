@@ -1,12 +1,13 @@
-def find_min_in_nested_arrays(src)
+def find_min_in_nested_arrays(array_1)
   array_of_mins = []
   counter = 0
-  while counter < src.length do
-    p array_of_mins = src[counter].min
-    array_of_mins << src[counter].min
+  while counter < array_1.length do
+    p array_of_mins = array_1[counter].min
+    array_of_mins << array_1[counter].min 
     counter += 1
   end
   p array_of_mins
+  
 end 
 
 	#Create a new array that will store my values: Something like array_of_mins = []
